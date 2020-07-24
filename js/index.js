@@ -2,6 +2,7 @@ let myPicturesArray = [];
 let selectedThumb;
 let currentAlbum = 0;
 let startIdx = 0;
+let picGps = [];
 
 //Add landscapes
 for (let i=1; i<=10; i++){
@@ -111,3 +112,17 @@ function changeAlbum(evt) {
     currentAlbum = idx;
     displayThumbs(idx);
 }
+// function getGPS(){
+
+//     forEach
+    
+//     =function(){
+        
+        
+//         EXIF.getData(this, function() {
+//             myData = this;
+//             console.log(myData.exifdata);
+            
+//         })
+//     }
+// }
